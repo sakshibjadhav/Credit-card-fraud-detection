@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* overflow: hidden; */
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ddd;
+}
+header {
+  background: #aaa;
+}
+.nav {
+  width: 70%;
+  margin: auto;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.nav ul li {
+  padding: 20px 50px 20px 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.nav ul li .active {
+  color: #fff;
+}
+
+.container {
+  width: 60%;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+.content-section {
+  float: left;
+  width: 60%;
+}
+.content-section .content {
+  position: relative;
+  /* border: 1px solid red; */
+  height: 200px;
+}
+.content-section .title {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.content-section .content h3 {
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 21px;
+}
+.content-section .content {
+  margin: 30px 0;
+}
+.content-section .content h3 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.content-section .content i {
+  margin-top: 15px;
+  color: #4d4d4d;
+  font-size: 30px;
+  padding: 10px 20px 10px 0px;
+}
+.content-section .content i:hover {
+  color: #3d3d3d;
+}
+.content-section .content p {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.content-section .content img {
+  height: 170px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  border-radius: 50%;
+  border: 3px solid #000;
+}

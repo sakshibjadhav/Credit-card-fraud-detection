@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="/static/about.css" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+            /* overflow: hidden; */
+        }
+
+        body {
+            width: 100%;
+            min-height: 100vh;
+            background-color: #ddd;
+        }
+
+        header {
+            background: #aaa;
+        }
+
+        .nav {
+            width: 70%;
+            margin: auto;
+        }
+
+        .nav ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        }
+
+        .nav ul li {
+            padding: 20px 50px 20px 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .nav ul li .active {
+            color: #fff;
+        }
+
+        .container {
+            width: 60%;
+            display: block;
+            margin: auto;
+            padding-top: 10px;
+        }
+
+        .content-section {
+            float: left;
+            width: 60%;
+        }
+
+        .content-section .content {
+            position: relative;
+            /* border: 1px solid red; */
+            height: 200px;
+        }
+
+        .content-section .title {
+            text-transform: uppercase;
+            font-size: 28px;
+        }
+
+        .content-section .content h3 {
+            margin-top: 20px;
+            color: #5d5d5d;
+            font-size: 21px;
+        }
+
+        .content-section .content {
+            margin: 30px 0;
+        }
+
+        .content-section .content h3 {
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        .content-section .content i {
+            margin-top: 15px;
+            color: #4d4d4d;
+            font-size: 30px;
+            padding: 10px 20px 10px 0px;
+        }
+
+        .content-section .content i:hover {
+            color: #3d3d3d;
+        }
+
+        .content-section .content p {
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .content-section .content img {
+            height: 170px;
+            position: absolute;
+            right: 10px;
+            top: 0;
+            border-radius: 50%;
+            border: 3px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/index">Home</a></li>
+                    <li><a href="http://127.0.0.1:8000/">Predict</a></li>
+                    <li><a href="/about" class="active">Team</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="section">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title">
+                        <h1>Our Team</h1>
+                    </div>
+                    <div class="content">
+                        <h3>Sakshi Jadhav</h3>
+                        <a href="https://www.linkedin.com/in/sakshi-jadhav-171458205/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/sakshibjadhav" target="_blank"><i class="fab fa-github"></i></a>
+                        <p>sakshi.jadhav_19@sakec.ac.in</p>
+                        <img src="/static/assets/sakshi.jpeg" alt="Sakshi" />
+                    </div>
+
+                    <div class="content">
+                        <h3>Aditi Bailur</h3>
+                        <a href="https://www.linkedin.com/in/aditi-bailur-13500820b/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/aditibailur" target="_blank"><i class="fab fa-github"></i></a>
+                        <p>aditi.bailur_19@sakec.ac.in</p>
+                        <img src="/static/assets/aditi.jpeg" alt="Aditi" />
+                    </div>
+
+                    <div class="content">
+                        <h3>Natasha Jain</h3>
+                        <a href="https://www.linkedin.com/in/natasha-jain-4b7a37221" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Nat2001" target="_blank"><i class="fab fa-github"></i></a>
+                        <p>natasha.jain_19@sakec.ac.in</p>
+                        <img src="/static/assets/natasha.jpeg" alt="Natasha" />
+                    </div>
+
+                    <div class="content">
+                        <h3>Gaurav Gondane</h3>
+                        <a href="https://www.linkedin.com/in/gaurav-gondane-435a961aa/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/gauravgondane26" target="_blank"><i class="fab fa-github"></i></a>
+                        <p>gaurav.gondane_19@sakec.ac.in</p>
+                        <img src="/static/assets/gaurav.jpeg" alt="Gaurav" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
